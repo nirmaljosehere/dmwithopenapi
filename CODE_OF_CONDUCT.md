@@ -14,13 +14,13 @@ orientation.
 Examples of behavior that contributes to creating a positive environment
 include:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+* using welcoming and inclusive language
+* being respectful of differing viewpoints and experiences
+* gracefully accepting constructive criticism
+* focusing on what is best for the community
+* showing empathy towards other community members
 
-Examples of unacceptable behavior by participants include:
+examples of unacceptable behavior by participants; include:
 
 * The use of sexualized language or imagery and unwelcome sexual attention or
 advances
@@ -68,7 +68,7 @@ members of the project's leadership.
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at [http://contributor-covenant.org/version/1/4][version]
+available at [;http://contributor-covenant.org/version/1/4][version]
 
-[homepage]: http://contributor-covenant.org
+[;homepage]: http://contributor-covenant.org
 [version]: http://contributor-covenant.org/version/1/4/

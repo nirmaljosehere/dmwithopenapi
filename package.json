@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adobe/aem-boilerplate.git"
+    "url": "git+https://github.com/nirmaljosehere/dmwithopenapi.git"
   },
   "author": "Adobe",
   "license": "Apache License 2.0",
   "bugs": {
-    "url": "https://github.com/adobe/aem-boilerplate/issues"
+    "url": "https://github.com/nirmaljosehere/dmwithopenapi/issues"
   },
-  "homepage": "https://github.com/adobe/aem-boilerplate#readme",
+  "homepage": "https://github.com/nirmaljosehere/dmwithopenapi#readme",
   "devDependencies": {
     "@babel/eslint-parser": "7.25.9",
     "eslint": "8.57.1",

@@ -1,7 +1,6 @@
 main .embed {
     width: unset;
     text-align: center;
-    max-width: 800px;
     margin: 32px auto;
   }
 
@@ -59,4 +58,28 @@ main .embed {
     border-left: 6px solid;
     top: 4px;
     left: 7px;
+  }
+
+  main .embed .embed-default {
+    position: relative;
+    left: 0;
+    width: 100%; 
+    height: 0; 
+    padding-bottom: 56.25%;
+  }
+
+  @media only screen and (width < 1024px) and (orientation: portrait) {
+    main .embed .embed-default.mobile-view {
+      padding-bottom: 130%;
+    }
+  }
+
+  @media only screen and (width < 600px) {
+    main .embed .embed-default.mobile-view {
+      padding-bottom: 170%;
+    }
+  }
+
+  .embed-wrapper:has(.smartcrop) {
+    height: 46rem;
   }
