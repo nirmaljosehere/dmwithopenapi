@@ -1,0 +1,48 @@
+{
+  ":version": 3,
+  ":names": ["helix-blocks"],
+  ":type": "multi-sheet",
+  "helix-blocks": {
+    "total": 9,
+    "offset": 0,
+    "limit": 9,
+    "data": [
+      {
+        "name": "Cards",
+        "path": "/tools/sidekick/blocks/cards"
+      },
+      {
+        "name": "Columns", 
+        "path": "/tools/sidekick/blocks/columns"
+      },
+      {
+        "name": "Hero",
+        "path": "/tools/sidekick/blocks/hero"
+      },
+      {
+        "name": "Video",
+        "path": "/tools/sidekick/blocks/video"
+      },
+      {
+        "name": "Embed",
+        "path": "/tools/sidekick/blocks/embed"
+      },
+      {
+        "name": "Header",
+        "path": "/tools/sidekick/blocks/header"
+      },
+      {
+        "name": "Footer",
+        "path": "/tools/sidekick/blocks/footer"
+      },
+      {
+        "name": "Fragment",
+        "path": "/tools/sidekick/blocks/fragment"
+      },
+      {
+        "name": "Hotspot",
+        "path": "/tools/sidekick/blocks/hotspot"
+      }
+    ]
+  }
+} 
