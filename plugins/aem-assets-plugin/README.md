@@ -12,8 +12,7 @@ The AEM Assets Plugin helps you quickly integrate with AEM Assets for your AEM p
 - You need to have access to [Dynamic Media Open API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview)
 
 And you need to have pre-configured:
-- [AEM Assets Sidekick plugin](https://www.aem.live/docs/aem-assets-sidekick-plugin) if using Doc based authoring OR
-- [Universal Editor Custom Asset Picker](https://developer.adobe.com/uix/docs/extension-manager/extension-developed-by-adobe/configurable-asset-picker/) if using Universal Editor based authoring
+- [AEM Assets Sidekick plugin](https://www.aem.live/docs/aem-assets-sidekick-plugin)
 
 ## Installation
 
@@ -46,7 +45,7 @@ Here's typically how `scripts/aem-assets-plugin-support.js` would look:
 
 ```
 // The based path of the aem-assets-plugin code.
-const codeBasePath = `${window.hlx?.codeBasePath}/plugins/aem-assets-plugin`;
+const codeBasePath = '/plugins/aem-assets-plugin';
 
 // The blocks that are to be used from the aem-assets-plugin.
 const blocks = ['video'];

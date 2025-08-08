@@ -1,27 +1,53 @@
 .cards > ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  grid-gap: 24px;
+    list-style: none;
+    margin: 30px 50px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(257px, 1fr));
+    grid-gap: 24px;
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+    border: 1px solid #dadada;
+    background-color: #666;
+    background-image: linear-gradient( black 0%, #666 100%);
+    color: white;
+    filter: drop-shadow(black 5px 5px 10px);
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+    margin: 16px;
 }
 
 .cards .cards-card-image {
-  line-height: 0;
+    line-height: 0;
 }
 
 .cards > ul > li img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+}
+
+.cards.members.block > ul > li {
+    background-color: #C6DAB0;
+    color: white;
+    filter: drop-shadow(black 5px 5px 10px);
+}
+
+.cards.rentals.block > ul > li {
+  background-color: #633923;
+  color: white;
+  filter: drop-shadow(black 5px 5px 10px);
+}
+
+div.cards-card-body p {
+    color: #cac8c8;
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+div.cards-card-body h3 {
+    color: #7cacc6b0;
+    font-size: 1.0em;
+    text-transform:uppercase;
 }
