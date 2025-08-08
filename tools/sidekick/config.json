@@ -13,7 +13,7 @@
       "environments": ["edit"],
       "url": "https://experience.adobe.com/solutions/CQ-helix-assets-addon/static-assets/resources/asset-selector.html",
       "isPalette": true,
-      "includePaths": ["**.docx**"],
+      "includePaths": ["**.docx**", "**/docs.google.com/**"],
       "passConfig": true,
       "passReferrer": true,
       "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
@@ -23,9 +23,7 @@
       "title": "Library",
       "environments": ["edit", "preview"],
       "url": "/tools/sidekick/library.html",
-      "passConfig": true,
-      "passReferrer": true,
-      "isPalette": true
+      "includePaths": ["**.docx**", "**/docs.google.com/**"]
     }
   ]
 }
