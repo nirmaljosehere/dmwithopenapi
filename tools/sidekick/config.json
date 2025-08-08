@@ -23,7 +23,9 @@
       "title": "Library",
       "environments": ["edit", "preview"],
       "url": "/tools/sidekick/library.html",
-      "includePaths": ["**.docx**"]
+      "passConfig": true,
+      "passReferrer": true,
+      "isPalette": true
     }
   ]
 }
